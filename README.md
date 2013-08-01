@@ -1,7 +1,7 @@
 pysnake
 =======
 
-The first game I wrote on my commodore 64 when i was a kid... written from scratch in python to teach my son a little about development.  This game is for educational purposes only, i will slowely be improving it when I find time, but feel free to report anything that isn't working.
+The first game I wrote on my commodore 64 when i was a kid... written from scratch in python to teach my son a little about software development.  This game is for educational purposes only, i will slowely be improving it when I find time, but feel free to report anything that isn't working.
 
 NOTES
 =====
