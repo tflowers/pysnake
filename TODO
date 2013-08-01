@@ -1,0 +1,11 @@
+Multiplayer
+  - Snake Selection
+  - Networked Multiplayer (0MQ :))
+
+Obstacles:
+  - add some for higher levels
+
+Get rid of sleep (select)
+
+More abstraction of the curses library
+
