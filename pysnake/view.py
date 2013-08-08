@@ -146,20 +146,20 @@ class GameWindow(object):
   def draw(self, obj):
     for point in obj:
       self.plot(point)
+    self.board_window.refresh()
 
   def erase(self, obj):
     for point in obj:
       self.unplot(point)
+    self.board_window.refresh()
 
   def plot(self, point):
     y, x = point
     self.board_window.addch(y, x, ' ',  self.colors.BLACK_WHITE)
-    self.board_window.refresh()
-
+    
   def unplot(self, point):
     y, x = point
     self.board_window.addch(y, x, ' ',  self.colors.BLACK_BLACK)
-    self.board_window.refresh()
 
   def addch(self, point, ch):
     y, x = point
